@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Rating from "./Rating";
+// import Rating from "./Rating";
 import { formatCurrencyString } from "use-shopping-cart/core";
 import { useShoppingCart } from "use-shopping-cart";
 import { toast } from "react-hot-toast";
@@ -32,7 +32,7 @@ const ProductCard = ({ product, index }) => {
       </div>
       <div className="p-6 bg-white">
         <p className="font-semibold text-lg">{product.name}</p>
-        <Rating />
+        {/* <Rating /> */}
         <div className="mt-4 flex items-center justify-between space-x-2">
           <div>
             <p className="text-gray-500">Price</p>
